@@ -1,0 +1,19 @@
+
+CREATE DATABASE IF NOT EXISTS optativa;
+ 
+USE optativa;
+CREATE TABLE `dispositivos` (
+  `id` int(11) NOT NULL,
+  `numero` varchar(50) COLLATE utf8mb4_spanish2_ci NOT NULL,
+  `descripcion` varchar(50) COLLATE utf8mb4_spanish2_ci NOT NULL,
+  `tamano` varchar(50) COLLATE utf8mb4_spanish2_ci NOT NULL,
+  `sistema` varchar(50) COLLATE utf8mb4_spanish2_ci NOT NULL,
+  `camara` varchar(50) COLLATE utf8mb4_spanish2_ci NOT NULL,
+  `ram` varchar(50) COLLATE utf8mb4_spanish2_ci NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
+ 
+ALTER TABLE `dispositivos`
+  ADD PRIMARY KEY (`id`);
+ 
+ALTER TABLE `dispositivos`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;

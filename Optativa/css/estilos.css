@@ -1,0 +1,50 @@
+input[type=text] {
+  border: 1px dotted #999;
+  border-radius: 0;
+
+  -webkit-appearance: none;
+}
+
+button, input, select, textarea {
+  font-family : inherit;
+  font-size   : 100%;
+}
+input, button {
+  width : 150px;
+  margin: 0;
+
+  -webkit-box-sizing: border-box; 
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+h1, h2{
+	text-align: center
+}
+div {
+	background-color: #ffff;
+	position: absolute;
+	height: 150px;
+	width: 200px;
+	left: 50%;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+}
